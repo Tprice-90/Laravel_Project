@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="694b74ac-c709-4582-9d82-26f222da20bc" name="ScWeb">
+        <fileTransfer rootFolder="/home/tprice/public_html" accessType="SFTP" host="tprice.scweb.ca" port="22" sshConfigId="b205f39c-0f15-4a3c-b9dd-bc8f189a12b5" sshConfig="tprice@tprice.scweb.ca:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
