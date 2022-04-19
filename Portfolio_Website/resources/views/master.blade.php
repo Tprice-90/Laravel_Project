@@ -3,24 +3,24 @@
         <div class="col-md-12 mb-3">
             <div class="row">
                 <div class="col"></div>
-                <div class="col-auto"><a href="{{action('PortfolioController@create')}}" class="btn btn-primary">Create</a></div>
+                <div class="col-auto"><a href="{{action('PortfolioController@create')}}" class="btn btn-secondary">Create</a></div>
             </div>
         </div>
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Created</h3>
+                <div class="card-header bg-primary">
+                    <h3 class="card-title">User Portfolios</h3>
                 </div>
                 <div class="card-body">
                     <table class="table table-bordered">
-                        <thead class="thead-dark">
+                        <thead class="bg-primary">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Photo</th>
                             <th scope="col">Name</th>
                             <th scope="col">Email</th>
                             <th scope="col">Telephone</th>
-                            <th scope="col">self description</th>
+                            <th scope="col">Self Description</th>
                             <th scope="col"></th>
                             <th scope="col"></th>
                         </tr>

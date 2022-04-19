@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','HomeController@index')->name('index');
-Auth::routes();
+Route::get('/', 'HomeController@index')->name('index');
+Auth::routes(['verify' => true]);
 Route::resource('portfolio', 'PortfolioController');
 Route::get('/{username}','HomeController@master')->name('master');
 
