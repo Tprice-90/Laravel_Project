@@ -7,7 +7,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use App\Models\Portfolio;
 
-class User extends Authenticatable
+class User extends Authenticatable implements MustVerifyEMail
 {
     use Notifiable;
 

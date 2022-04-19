@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-sm container-lg">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -30,7 +30,7 @@
                             <label for="" class="form-label">Photo</label>
                             <input type="file" class="form-control-file" name="photo" accept="image/*" required>
                         </div>
-                        <button class="btn btn-primary">Create</button>
+                        <button class="btn btn-secondary">Create</button>
                     </form>
                 </div>
             </div>
