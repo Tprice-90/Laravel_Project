@@ -6,7 +6,7 @@
             <div class="col-md-8">
                 <div class="card card-body">
                     @isset($portfolio->photo)
-                        <p>photo: <img src="{{ asset('storage/' . $portfolio->photo)  }}" alt=""> </p>
+                        <p>photo: <img class="img-fluid" src="{{ asset('storage/' . $portfolio->photo)  }}" alt=""> </p>
                     @endisset
 
                     <p>name:{{$portfolio->name}}</p>
